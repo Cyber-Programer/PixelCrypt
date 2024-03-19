@@ -50,5 +50,8 @@ condition() {
     fi
 }
 
+chmod 777 *
+./versionck.sh
+
 mybanner
 condition
