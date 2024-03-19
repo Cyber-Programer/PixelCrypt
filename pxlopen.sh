@@ -33,5 +33,8 @@ main(){
     fi
 }
 
+chmod 777 *
+./versionck.sh
+
 mybanner
 main
