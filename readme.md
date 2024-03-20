@@ -2,6 +2,20 @@
 
 Welcome to **PiXeL CrYpT**, a tool that allows you to hide files within image files. This can be useful for securely storing sensitive data or sharing files in a discreet manner. Below, I'll explain how the tool works and guide you through its usage.
 
+
+## Installation
+*For install this tool run the following commands:*
+
+```bash
+apt update -y && apt upgrade -y
+apt install python -y
+apt install git -y
+git clone https://github.com/Cyber-Programer/PixelCrypt.git
+cd PixelCrypt
+chmod +X *
+```
+
+
 ## How It Works
 
 1. **Requirements**:
