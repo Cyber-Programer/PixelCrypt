@@ -42,4 +42,29 @@ Feel free to customize the script or enhance its functionality as needed!
 
 ---
 
+# PiXeL OpEn
+By using this script you can open/Extract the hidden files which you are hide using the `pxlcrypt.sh` script.
+
+## How It Works
+
+1. **Requirements**:
+   - You'll need the pixlcrypted file ( which you maked by using the `pxlcrypt.sh` script ) .
+   - unzip tool ( this tool is already installed if you use linux other wise you need to install it.
+
+2. **Running the Script**:
+   - Open your terminal or command prompt.
+   - Navigate to the directory where the script is located.
+   - Make sure the script has executable permissions (you can use `chmod +x pxlopen.sh` to grant permissions).
+   - Run the script: `./pxlopen.sh`.
+
+3. **Interaction**:
+   - The script will prompt you with a question: “Do you want to open/unlock a PiXeL CrYpT file? (y/n):”
+   - If you choose ‘y’, follow the subsequent prompts to provide the path for your PiXeL CrYpT file.
+   - The script will extract the hidden data from the image file.
+
+4. **Output**:
+   - The extracted data will be saved in the same directory as the original PiXeL CrYpT file.
+
 *Note: This is a simplified explanation for demonstration purposes. In practice, consider security implications and use encryption methods for sensitive data.*
+
+
