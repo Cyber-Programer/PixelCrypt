@@ -18,7 +18,7 @@ main(){
 
         read -p "Enter the pixelCrypt file path: " file
         
-        if [[ "$file"  == *.png || "$file" == *jpg || "$file" == *jpeg || "$file" == *gif  ]]; then
+        if [[ "$file"  == *.zip ]]; then
 
                 unzip $file
 
